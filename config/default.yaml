@@ -1,0 +1,48 @@
+﻿#로그 설정
+logger:
+  logLevel: debug
+  path: c:/speaker/log
+
+# 파일 업로드 설정
+multipartFiles:
+  uploadPath: c:/speaker/upload/
+
+aws:
+  s3:
+    bucket: broadcast-speacker-dev
+    basePath: audios_polly/
+    fileSize: 1024 * 1024 * 4
+    region: ap-northeast-2
+  accessKeyId: $AWS_ACCESS_KEY_ID
+  secretAccessKey: $AWS_SECRET_ACCESS_KEY
+
+# 사용자 비밀번호 암호화 salt
+encryptSalt: tpVBTHge4&o7m&3izx%D
+
+#express setting
+express:
+  port: 3000
+  session:
+    secret: L3VdDBdB4iSuw98HFl07szrIyGZoe3r4
+
+# DB
+mainDB:
+  dialect: mariadb
+  host: 127.0.0.1
+  port: 3306
+  database: broadcast_speaker
+  timezone: Etc/GMT-9
+  username: mariadb
+  password: mariadb
+  charset: utf8mb4
+  connectionLimit: 32
+  min: 10
+  idle: 10000
+  acquireTimeout: 1000
+# # redis 설정
+# redis:
+#     host: 127.0.0.1
+#     port:
+#     total_retry_time: 15000 #15 * 1000 15sec
+#     retry: 5 # connection retry
+

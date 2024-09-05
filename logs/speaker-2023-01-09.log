@@ -1,0 +1,2 @@
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 9. 오전 11:03:42 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"3528","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 9. 오후 2:45:39 [95mResponse {/main/transmit, POST, 201} 13317177ms - undefined[39m - {}

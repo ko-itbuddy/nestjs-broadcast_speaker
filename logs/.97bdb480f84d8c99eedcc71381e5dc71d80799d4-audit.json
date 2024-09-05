@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "logs/.97bdb480f84d8c99eedcc71381e5dc71d80799d4-audit.json",
+    "files": [
+        {
+            "date": 1673014113921,
+            "name": "logs/speaker-2023-01-06.log",
+            "hash": "279be92c470bb1875703fa0386449c3e"
+        },
+        {
+            "date": 1673069660811,
+            "name": "logs/speaker-2023-01-07.log",
+            "hash": "15400c9d21de8992055a9f20bb49a4c4"
+        },
+        {
+            "date": 1673137013136,
+            "name": "logs/speaker-2023-01-08.log",
+            "hash": "0bc63bd7dec0f0e9e11df88b2e6b31c6"
+        },
+        {
+            "date": 1673229767644,
+            "name": "logs/speaker-2023-01-09.log",
+            "hash": "cd9fd02b894b5e374ab8c1cf7c482fdf"
+        }
+    ],
+    "hashType": "md5"
+}

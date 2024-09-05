@@ -1,0 +1,211 @@
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오전 9:16:53 [31mCannot GET /tts[39m - {
+  response: { statusCode: [33m404[39m, message: [32m'Cannot GET /tts'[39m, error: [32m'Not Found'[39m },
+  status: [33m404[39m,
+  name: [32m'NotFoundException'[39m
+}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오전 9:16:54 [31mCannot GET /tts[39m - {
+  response: { statusCode: [33m404[39m, message: [32m'Cannot GET /tts'[39m, error: [32m'Not Found'[39m },
+  status: [33m404[39m,
+  name: [32m'NotFoundException'[39m
+}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오전 9:17:29 [31mCannot GET /tts[39m - {
+  response: { statusCode: [33m404[39m, message: [32m'Cannot GET /tts'[39m, error: [32m'Not Found'[39m },
+  status: [33m404[39m,
+  name: [32m'NotFoundException'[39m
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 9:17:51 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오전 9:18:03 [31mThe security token included in the request is invalid.[39m - {
+  name: [32m'UnrecognizedClientException'[39m,
+  [32m'$fault'[39m: [32m'client'[39m,
+  [32m'$metadata'[39m: {
+    httpStatusCode: [33m403[39m,
+    requestId: [32m'e89ea976-491a-4fc9-b841-b33d00b75d34'[39m,
+    attempts: [33m1[39m,
+    totalRetryDelay: [33m0[39m
+  }
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 9:18:03 [95mResponse {/main/tts, GET, 200} 12430ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:10:07 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오전 11:10:14 [31mThe security token included in the request is invalid.[39m - {
+  name: [32m'UnrecognizedClientException'[39m,
+  [32m'$fault'[39m: [32m'client'[39m,
+  [32m'$metadata'[39m: {
+    httpStatusCode: [33m403[39m,
+    requestId: [32m'26e1a39b-ab0a-4987-97b2-b4f1a6d8b111'[39m,
+    attempts: [33m1[39m,
+    totalRetryDelay: [33m0[39m
+  }
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:10:14 [95mResponse {/main/tts, GET, 200} 6990ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:34:40 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오전 11:34:46 [31m2 validation errors detected: Value '4dfdffc5-0794-4e22-a162-cd1f14ede030.mp3' at 'name' failed to satisfy constraint: Member must satisfy regular expression pattern: [0-9A-Za-z]{1,20}; Value '4dfdffc5-0794-4e22-a162-cd1f14ede030.mp3' at 'name' failed to satisfy constraint: Member must have length less than or equal to 20[39m - {
+  name: [32m'ValidationException'[39m,
+  [32m'$fault'[39m: [32m'client'[39m,
+  [32m'$metadata'[39m: {
+    httpStatusCode: [33m400[39m,
+    requestId: [32m'83ed8998-530f-4f2a-8848-e422751ed46f'[39m,
+    attempts: [33m1[39m,
+    totalRetryDelay: [33m0[39m
+  }
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:34:46 [95mResponse {/main/tts, GET, 200} 6492ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:43:19 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오전 11:43:19 [31m2 validation errors detected: Value 'a50e5d90-ff07-4513-8.mp3' at 'name' failed to satisfy constraint: Member must satisfy regular expression pattern: [0-9A-Za-z]{1,20}; Value 'a50e5d90-ff07-4513-8.mp3' at 'name' failed to satisfy constraint: Member must have length less than or equal to 20[39m - {
+  name: [32m'ValidationException'[39m,
+  [32m'$fault'[39m: [32m'client'[39m,
+  [32m'$metadata'[39m: {
+    httpStatusCode: [33m400[39m,
+    requestId: [32m'36f82205-829b-4f01-b6f9-07398fc8cacf'[39m,
+    attempts: [33m1[39m,
+    totalRetryDelay: [33m0[39m
+  }
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:43:19 [95mResponse {/main/tts, GET, 200} 144ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:43:54 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오전 11:43:54 [31m2 validation errors detected: Value '859953fc4f35-4682-a4.mp3' at 'name' failed to satisfy constraint: Member must satisfy regular expression pattern: [0-9A-Za-z]{1,20}; Value '859953fc4f35-4682-a4.mp3' at 'name' failed to satisfy constraint: Member must have length less than or equal to 20[39m - {
+  name: [32m'ValidationException'[39m,
+  [32m'$fault'[39m: [32m'client'[39m,
+  [32m'$metadata'[39m: {
+    httpStatusCode: [33m400[39m,
+    requestId: [32m'65d46dc4-7baf-4bef-96dc-73e2c9569056'[39m,
+    attempts: [33m1[39m,
+    totalRetryDelay: [33m0[39m
+  }
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:43:54 [95mResponse {/main/tts, GET, 200} 106ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:46:35 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오전 11:46:35 [31m2 validation errors detected: Value '6bab9fc17d1a4b588f6b.mp3' at 'name' failed to satisfy constraint: Member must satisfy regular expression pattern: [0-9A-Za-z]{1,20}; Value '6bab9fc17d1a4b588f6b.mp3' at 'name' failed to satisfy constraint: Member must have length less than or equal to 20[39m - {
+  name: [32m'ValidationException'[39m,
+  [32m'$fault'[39m: [32m'client'[39m,
+  [32m'$metadata'[39m: {
+    httpStatusCode: [33m400[39m,
+    requestId: [32m'f8989d53-dd19-4a34-9709-3d00154e68e7'[39m,
+    attempts: [33m1[39m,
+    totalRetryDelay: [33m0[39m
+  }
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:46:35 [95mResponse {/main/tts, GET, 200} 139ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:47:16 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오전 11:47:16 [31m1 validation error detected: Value 'fbe2651af9024af6.mp3' at 'name' failed to satisfy constraint: Member must satisfy regular expression pattern: [0-9A-Za-z]{1,20}[39m - {
+  name: [32m'ValidationException'[39m,
+  [32m'$fault'[39m: [32m'client'[39m,
+  [32m'$metadata'[39m: {
+    httpStatusCode: [33m400[39m,
+    requestId: [32m'8780601f-4373-4591-95bd-187cf81fb3ef'[39m,
+    attempts: [33m1[39m,
+    totalRetryDelay: [33m0[39m
+  }
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:47:16 [95mResponse {/main/tts, GET, 200} 109ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:48:11 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오전 11:48:11 [31m[39m - {
+  name: [32m'LexiconNotFoundException'[39m,
+  [32m'$fault'[39m: [32m'client'[39m,
+  [32m'$metadata'[39m: {
+    httpStatusCode: [33m404[39m,
+    requestId: [32m'287f8dcb-ce85-4dcd-822d-91bebc845dc6'[39m,
+    attempts: [33m1[39m,
+    totalRetryDelay: [33m0[39m
+  }
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오전 11:48:11 [95mResponse {/main/tts, GET, 200} 142ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:09:48 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오후 1:09:48 [31m[39m - {
+  name: [32m'LexiconNotFoundException'[39m,
+  [32m'$fault'[39m: [32m'client'[39m,
+  [32m'$metadata'[39m: {
+    httpStatusCode: [33m404[39m,
+    requestId: [32m'75813d7d-55fb-486a-97cf-f7998d509c5f'[39m,
+    attempts: [33m1[39m,
+    totalRetryDelay: [33m0[39m
+  }
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:09:48 [95mResponse {/main/tts, GET, 200} 105ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:11:10 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:11:11 [95mResponse {/main/tts, GET, 200} 264ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:41:22 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:41:22 [95mResponse {/main/tts, GET, 200} 31ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:42:35 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:42:35 [95mResponse {/main/tts, GET, 200} 33ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:42:36 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:42:36 [95mResponse {/main/tts, GET, 200} 25ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:43:05 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:43:05 [95mResponse {/main/tts, GET, 200} 227ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:53:47 [95mRequest {/main/tts, GET} - body : null[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:53:47 [95mResponse {/main/tts, GET, 200} 40ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:54:11 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"8828","name":"이광헌"}[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오후 1:54:11 [31m1 validation error detected: Value 'broadcast-speacker-dev/audios/' at 'outputS3BucketName' failed to satisfy constraint: Member must satisfy regular expression pattern: ^[a-z0-9][\.\-a-z0-9]{1,61}[a-z0-9]$[39m - {
+  name: [32m'ValidationException'[39m,
+  [32m'$fault'[39m: [32m'client'[39m,
+  [32m'$metadata'[39m: {
+    httpStatusCode: [33m400[39m,
+    requestId: [32m'187883de-0507-49c3-a900-3cc03d839a0a'[39m,
+    attempts: [33m1[39m,
+    totalRetryDelay: [33m0[39m
+  }
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:54:11 [95mResponse {/main/transmit, POST, 201} 144ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:54:39 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"8828","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:57:40 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"8328","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:57:40 [95mResponse {/main/transmit, POST, 201} 257ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 1:59:22 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"1328","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 2:03:28 [95mResponse {/main/transmit, POST, 201} 245831ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 2:03:36 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"1228","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 2:04:05 [95mResponse {/main/transmit, POST, 201} 28711ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 2:04:13 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"1328","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 2:04:13 [95mResponse {/main/transmit, POST, 201} 22ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 2:04:46 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"1328","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 2:04:46 [95mResponse {/main/transmit, POST, 201} 40ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 2:04:53 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"1428","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 2:05:23 [95mResponse {/main/transmit, POST, 201} 30056ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 2:05:33 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"1928","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:06:00 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"2928","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:17:31 [95mResponse {/main/transmit, POST, 201} 690722ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:18:44 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"2328","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:18:52 [95mResponse {/main/transmit, POST, 201} 7527ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:20:17 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"2528","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:20:17 [95mResponse {/main/transmit, POST, 201} 394ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:22:18 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"3528","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:22:18 [95mResponse {/main/transmit, POST, 201} 277ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:15 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"3528","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:15 [95mResponse {/main/transmit, POST, 201} 29ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:20 [95mRequest {/main/request, POST} - body : {"id":"admin","place":"직원휴게실"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:20 [95mResponse {/main/request, POST, 201} 31ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:23 [95mRequest {/main/request, POST} - body : {"id":"admin","place":"직원휴게실"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:23 [95mResponse {/main/request, POST, 201} 25ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:28 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"3528","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:28 [95mResponse {/main/transmit, POST, 201} 26ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:32 [95mRequest {/main/request, POST} - body : {"id":"admin","place":"직원휴게실"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:32 [95mResponse {/main/request, POST, 201} 20ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:38 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"3528","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:24:38 [95mResponse {/main/transmit, POST, 201} 30ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:25:47 [95mRequest {/main/request, POST} - body : {"id":"admin","place":"직원휴게실"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:25:47 [95mResponse {/main/request, POST, 201} 40ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:25:50 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"3528","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:26:07 [95mResponse {/main/transmit, POST, 201} 16911ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:26:19 [95mRequest {/main/request, POST} - body : {"id":"admin","place":"전체"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:26:19 [95mResponse {/main/request, POST, 201} 19ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:26:27 [95mRequest {/main/request, POST} - body : {"id":"admin","place":"직원휴게실"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:26:27 [95mResponse {/main/request, POST, 201} 20ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:26:28 [95mRequest {/main/request, POST} - body : {"id":"admin","place":"직원휴게실"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:26:28 [95mResponse {/main/request, POST, 201} 25ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:26:59 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"직원휴게실","type":"number","number":"3528","name":"이광헌"}[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오후 3:27:03 [31m4000005[39m - {
+  response: { statusCode: [33m400[39m, message: [32m'4000005'[39m, error: [32m'해당하는 장소가 없습니다.'[39m },
+  status: [33m400[39m,
+  name: [32m'BadRequestException'[39m
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:27:03 [95mResponse {/main/transmit, POST, 201} 4482ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:27:32 [95mRequest {/main/request, POST} - body : {"id":"admin","place":"직원휴게실"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:27:32 [95mResponse {/main/request, POST, 201} 18ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:28:01 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"직원휴게실","type":"number","number":"3528","name":"이광헌"}[39m - {}
+[31m[SEOYEON2][39m [33mError[39m	2023. 1. 8. 오후 3:28:13 [31m4000005[39m - {
+  response: { statusCode: [33m400[39m, message: [32m'4000005'[39m, error: [32m'해당하는 장소가 없습니다.'[39m },
+  status: [33m400[39m,
+  name: [32m'BadRequestException'[39m
+}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:28:13 [95mResponse {/main/transmit, POST, 201} 11751ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:29:17 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"직원휴게실","type":"number","number":"3528","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:29:24 [95mResponse {/main/transmit, POST, 201} 7399ms - undefined[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:29:49 [95mRequest {/main/transmit, POST} - body : {"id":"admin","place":"전체","type":"number","number":"3528","name":"이광헌"}[39m - {}
+[95m[SEOYEON2][39m [33mDebug[39m	2023. 1. 8. 오후 3:29:55 [95mResponse {/main/transmit, POST, 201} 5918ms - undefined[39m - {}

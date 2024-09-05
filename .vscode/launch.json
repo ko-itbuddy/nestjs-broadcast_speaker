@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "name": "Run Script: start:dev",
+            "request": "launch",
+            "command": "npm run start:dev",
+            "sourceMaps": true,
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "MARIADB_DIALECT" : "mariadb"
+            }
+        }
+    ]
+}

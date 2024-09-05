@@ -1,0 +1,7 @@
+logger:
+    logLevel: debug
+    path: ~/logs/
+
+# 파일 업로드 설정
+multipartFiles:
+    uploadPath: ~/upload/

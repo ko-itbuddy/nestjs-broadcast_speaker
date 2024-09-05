@@ -1,0 +1,18 @@
+{
+    "cSpell.words": [
+        "APIGW",
+        "Fastify",
+        "Naver",
+        "nestjs",
+        "originalname",
+        "prebuild",
+        "resave",
+        "testserver",
+        "typeorm",
+        "uuidv"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "editor.formatOnSave": true,
+}
